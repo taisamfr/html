@@ -1,0 +1,126 @@
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-color: #ecebeb;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #523714;
+    color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.colecao {
+    background-color: white;
+    padding: 150px;
+    border-radius: 100px;
+    display: inline-block;
+    margin-top: 80px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.produto img {
+    width: 150px; 
+    height: auto;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #1f0c0c;
+    color: white;
+    padding: 400px;
+    margin-top: 200px;
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+.slide-container {
+    width: 90vw; 
+    height: 50vh; 
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container {
+    width: 300vw;
+    height: 50vh;
+    display: flex;
+    animation: slideAnimation 9s infinite ease-in-out;
+}
+
+.slider-image {
+    width: 60vw; 
+    height: 45vh; 
+    object-fit: cover;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slider-button {
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slider-button:hover {
+    background-color: #888;
+}
+
+@keyframes slideAnimation {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(-120vw); } 
+    100% { transform: translateX(0); }
+}
+
+#slider-image1:target ~ .image-container {
+    animation: none;
+    transform: translateX(0);
+}
+
+#slider-image2:target ~ .image-container {
+    animation: none;
+    transform: translateX(-120vw);
+}
+
+#slider-image3:target ~ .image-container {
+    animation: none;
+    transform: translateX(-240vw);
+}
+
+#reset-target:target ~ .image-container {
+    animation: slideAnimation 9s infinite ease-in-out;
+}
