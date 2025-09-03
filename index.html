@@ -1,24 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Simple website</title>
-    <link rel ="stylesheet" href="main.css">
-  </head> 
-  <body class="dark-theme">
-    <h1>Task List</h1>
-    <p id="msg">Current tasks:</p>
-    <ul>
-        <li class="list">Add visual styles</li>
-        <li class="list">Add light and dark themes</li>
-        <li>Enable switching the theme</li>
-    </ul>
-    <div>
-      <button class="btn">Dark</button>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu Portfólio Inicial</h1>
+            <nav>
+                <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#hobbies"> Hobbies</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#midia"> Mídia</a></li>
+            <li><a href="#contato">Contato</a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <section id="sobre" class="secao">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Olá meu nome é Taisa Reis e sou aluna de tecnologia, 
+                    <br> faço <strong>Analise e Desenvolvimento de Sistemas</strong>
+                    <br>sou muito feliz no meu curso, foi a melhor coisa da minha vida,
+                    <br> amo meus professores, eles são <strong>DEMAISS</strong>
+                    <p>
+                        Vou seguir carreira na área da tecnologia da infromação,
+                        <br>pois me encontrei na parte de front-end porque, tem
+                        <br>corzinhas coloridas e eu adoro!
+                    </p>
+                </p>
+            </section>
+            <section id="hobbies" class="secao">
+                <h2>Hobbies</h2>
+                
+                <ul>
+                    <li>Programar em java</li>
+                    <li>Cozinhar</li>
+                    <li>Ler</li>
+                    <li>Dançar</li>
+                    <ul>
+                        <li>Ouvir música</li>
+                    </ul>
+                    <h3>Top 3 músicas que a Fichel toca</h3>
+                    <ol>
+                        <li>Desaguei</li>
+                        <li>Esvaziar</li>
+                        <li>Resenha do Arrocha</li>
+                    </ol>
+                    <h3>Letras de música que eu gosoto</h3>
+                    <dl>
+                        <dt>Que saudade da minha ex</dt>
+                        <dd>Que saudade da minha ex
+                            Que saudade da minha ex
+                            Com ela não tem caô
+                            É todo dia e toda hora</dd>
+                        <dt>Eu ainda voltava</dt>
+                        <dd>Que se você me ligasse hoje
+                            Eu ainda voltava?
+                            Eu ainda voltava
+                            Eu ainda voltava</dd>
+                        <dt>Até a próxima vida</dt>
+                        <dd>Até a próxima vida, mas se liga
+                            Se der ruim com esse doido aí
+                            Cê lembra que eu sou top dois da sua lista</dd>
+                    </dl>
+                    <img src="C:\Users\Aluno\Desktop\PORTIFÓLIO\henriquej.jpg" alt="Imagem dos cantores" class="Imagem-cantores">
+
+                </ul>
+
+            </section>
+
+                <section id="habilidades" class="secao">
+                       <h2>Tabela de Habilidades</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnologia</th>
+                            <th>Nível de Conhecimento</th>
+                            <th>Ano de Programação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML v5</td>
+                            <td>Em desenvolvimento</td>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                            <td>Intermediário</td>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <td>CSS v4</td>
+                            <td>Iniciante</td>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Iniciante</td>
+                            <td>2025</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3>Meu video Vida de Programador</h3>
+          <video width="70%" controls>
+                    <source src="C:\Users\Aluno\Desktop\PORTIFÓLIO\Henrique e Juliano -  ATÉ A PRÓXIMA VIDA - DVD Manifesto Musical.mp4" type="video/mp4">
+                </video>
+            </section>
+        </main>
     </div>
-    <script src="app.js"></script>
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
-
-
-  </body>
-  </html>
+</body>
+</html>
