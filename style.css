@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EFEDE9;
+    margin: 0;
+    padding: 0;
+    color: #f2ece3;
+    line-height: 1.5;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #4C381E;
+    color: #f2ece3;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #7a7165 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 0 20px;
+}
+
+nav a {
+    color: #f2ece3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a07856;
+    text-decoration: overline;
+}
+
+.secao {
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(to right, #4c381e, #4c381e);
+    border-radius: 50px;
+    box-shadow: 0 2px 5px #3b2e1b;
+}
+
+h2 {
+    color: #f2ece3;
+    border-bottom: 2px solid #ebddcc;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #f2ece3;
+}
+
+.hobbies-imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.image-hobbie {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #3b2e1b;
+}
+
+.certificados-imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.image-certificado {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #3b2e1b;
+}
+
+.certificados-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.certificados-link a {
+    color: #f2ece3;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #7a7165;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.certificados-link a:hover {
+    background-color: #a07856;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #9b8b74;
+    text-align: center;
+}
+
+thead {
+    background-color: #9b8b74;
+}
+
+.formulario {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input,
+textarea {
+    width: 98%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    border-radius: 3px;
+    color: #4C381E;
+    width: 100px;
+    height: 40;
+}
