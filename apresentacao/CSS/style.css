@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #f2ece3;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1f1f1f;
+  color: #00ffff;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: 2px solid #7a7a7a;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #00ffff;
+  margin-bottom: 15px;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+/* Navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+nav ul li a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff00ff;
+}
+
+/* Destaques */
+.noticia-destaque {
+  background-color: #1a1a1a;
+  border-left: 5px solid #ff00ff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Seletor por ID */
+#menu-principal {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table td {
+  border: 1px solid #444;
+  padding: 10px;
+  color: #f2ece3;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
+  color: #00ffff;
+  margin-top: 40px;
+}
+
+/* Agrupamento de títulos */
+h1, h2, h3 {
+  color: #4C381E;
+}
+
+/* Seletor universal */
+* {
+  margin: 0;
+  padding: 0;
+}
